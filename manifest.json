@@ -6,7 +6,7 @@
   "version": "1.0",
 
   "action": {
-    "default_icon": "kal_logo.png",
+    "default_icon": "./public/kal_logo.png",
     "default_popup": "index.html"
   },
   "content_scripts": [
