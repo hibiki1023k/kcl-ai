@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>チャットフォーム</title>
+    <link rel="stylesheet" href="./public/global.css" />
+  </head>
+  <body>
+    <div class="chat-form-container">
+      <div class="header">
+        <div class="status-dot">
+          <img src="./public/kal_logo.png" height=100%>
+        </div>
+        <div class="title">Kyutech AI Lab</div>
+      </div>
+      <div class="messages" id="res">
+        <!-- メッセージはここに追加されます -->
+      </div>
+      <div class="footer">
+        <button class="button" id="refresh">
+          <img src="./public/trashbox.png" height="20px">
+        </button>
+        <input
+          type="text"
+          class="search-box"
+          placeholder="メッセージを入力"
+          id="req"
+        /> <!--TODO: 改行 -->
+        <button class="button" id="send">
+          <img src="./public/paperplane.png" height="20px">
+        </button>
+      </div>
+    </div>
+    <script src="./src/app/sendmessage.js"></script>
+  </body>
+</html>
