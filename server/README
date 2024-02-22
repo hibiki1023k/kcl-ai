@@ -1,0 +1,10 @@
+```
+mv sample.envrc .envrc
+code .envrc
+go run .
+```
+
+test
+```
+curl http://{your_ip_address}:8081/\?question\=九工大の学長の名前を教えて下さい
+```
