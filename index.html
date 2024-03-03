@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>チャットフォーム</title>
     <link rel="stylesheet" href="./public/global.css" />
+    <script src="./app/sendmessage.js"></script>
   </head>
   <body>
     <div class="chat-form-container">
@@ -27,7 +28,7 @@
           id="req"
         />
         <!--TODO: 改行 -->
-        <button class="button" id="send">
+        <button class="button" id="send" onClick="clearText()">
           <img src="./public/paperplane.png" height="20px" />
         </button>
       </div>
