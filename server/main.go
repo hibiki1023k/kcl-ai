@@ -21,7 +21,7 @@ func getEnvVars() (string, string, string) {
 // OpenAI APIにリクエストを送信する
 func sendRequest(apiKey, searchKey string, question string, w http.ResponseWriter, r *http.Request) {
 	apiBase := "https://oai1-0.openai.azure.com/"
-	deploymentID := "deploy0123"
+	deploymentID := "deploy0304"
 	searchEndpoint := "https://search0123.search.windows.net"
 	searchIndex := "index0206-mitani-tel"
 
